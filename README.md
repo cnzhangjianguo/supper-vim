@@ -1,7 +1,8 @@
 # supper-vim
 vim config
 
->
+## first
+>git clone git@github.com:cnzhangjianguo/supper-vim.git
 
-git clone git@github.com:cnzhangjianguo/supper-vim.git
-vim +VundleInstall +qall
+## second
+>vim +VundleInstall +qall
