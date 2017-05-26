@@ -1,3 +1,8 @@
+" ==============================================================
+" author: zhangjianguo@ofo.com
+" site: https://zhangjianguo.cn
+" date: 2017-05-26
+" ==============================================================
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -90,7 +95,7 @@ filetype plugin indent on    " required
 "编辑模式下字符输入替换，用于快速输入或者纠错
 "iabbrev与inoremap的区别：
 "http://www.kancloud.cn/kancloud/learn-vimscript-the-hard-way/49283
-"iabbrev @@ zhangjianguo@ofo.com
+"iabbrev @@ xxx@xxx.com
 " }}}
 
 "快捷编辑.vimrc配置文件
@@ -104,10 +109,6 @@ set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 set ruler
 "自动语法高亮
 syntax on
-"不设定在插入状态无法用退格键和 Delete 键删除回车符
-set backspace=indent,eol,start  
-"设置光标可以跨行移动
-set whichwrap+=<,>,h,l
 "显示行号
 set number
 "设置上下可视行数
@@ -123,6 +124,10 @@ set shiftwidth=4
 "根据文件中其他地方的缩进空格个数来确定一个tab是多少个空格
 set smarttab
 "---------------------------------------------
+"不设定在插入状态无法用退格键和 Delete 键删除回车符
+"set backspace=indent,eol,start  
+"设置光标可以跨行移动
+"set whichwrap+=<,>,h,l
 "光标高亮当前行
 "set cursorline
 "光标高亮所在列
