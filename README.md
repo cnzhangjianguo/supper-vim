@@ -1,8 +1,9 @@
 # supper-vim
 vim config
 
-## first
+## run commands below step by step
+>cd ~
+>git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 >git clone git@github.com:cnzhangjianguo/supper-vim.git
-
-## second
+>cp supper-vim/.vimrc ~/
 >vim +VundleInstall +qall
