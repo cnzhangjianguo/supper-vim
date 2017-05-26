@@ -36,6 +36,7 @@ let g:sparkupExecuteMapping = '<leader><tab>'
 Plugin 'Lokaltog/vim-powerline'
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
+set t_Co=256
 
 "导航与搜索
 Plugin 'scrooloose/nerdtree'
