@@ -126,7 +126,7 @@ set shiftwidth=4
 set smarttab
 "---------------------------------------------
 "不设定在插入状态无法用退格键和 Delete 键删除回车符
-"set backspace=indent,eol,start  
+set backspace=indent,eol,start  
 "设置光标可以跨行移动
 "set whichwrap+=<,>,h,l
 "光标高亮当前行
