@@ -36,10 +36,13 @@ let g:sparkupExecuteMapping = '<leader><tab>'
 Plugin 'Lokaltog/vim-powerline'
 let g:Powerline_symbols = 'fancy'
 set laststatus=2
+" 纠正windows下颜色状态栏背景颜色不显示问题
 set t_Co=256
 
 "导航与搜索
 Plugin 'scrooloose/nerdtree'
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
 "map <C-n> :NERDTreeToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -104,6 +107,7 @@ nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 "设置编码
+scriptencoding utf-8
 set enc=utf-8
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 "设置标尺
