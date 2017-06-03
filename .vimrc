@@ -97,6 +97,8 @@ Plugin 'johnbintz/vim-taglist-plus'
 let Tlist_Use_Right_Window=1
 " tagList窗口是最后一个窗口，则退出Vim
 let Tlist_Exit_OnlyWindow=1
+" 打开taglist窗口时，输入焦点落入窗口
+let Tlist_GainFocus_On_ToggleOpen=1
 nnoremap <Leader>t :TlistToggle<CR>
 
 " All of your Plugins must be added before the following line
