@@ -91,6 +91,14 @@ let g:blade_custom_directives_pairs = {
       \   'cache': 'endcache',
       \ }
 
+" taglist插件
+Plugin 'johnbintz/vim-taglist-plus'
+" 显示在右侧
+let Tlist_Use_Right_Window=1
+" tagList窗口是最后一个窗口，则退出Vim
+let Tlist_Exit_OnlyWindow=1
+nnoremap <Leader>t :TlistToggle<CR>
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
