@@ -80,6 +80,10 @@ nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>"
 
+"Vim-Vue
+Plugin 'posva/vim-vue'
+autocmd FileType vue syntax sync fromstart
+
 "lavavel blade模板语法支持
 Plugin 'jwalton512/vim-blade'
 " Define some single Blade directives. This variable is used for highlighting only.
